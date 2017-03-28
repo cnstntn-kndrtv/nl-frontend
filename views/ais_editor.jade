@@ -1,0 +1,22 @@
+extends layout
+append head 
+  link(href="/css/ace.css", rel="stylesheet")
+
+block content
+  +nav("ais_editor")
+  .container-fluid
+    .row
+      .col-lg-6.bg-info
+        #editor-container
+      .col-lg-6
+        .panel.panel-default
+          .panel-body
+            #statusBar some txt
+          .panel-footer
+            button.btn.btn-default#getFile(onclick='getFile()') get file
+        
+  script(src='/js/ace/src/ace.js')
+  script(src='/js/ace/src/ext-statusbar.js')
+  script(src='/js/ace/src/ext-language_tools.js')
+  script(src='/js/ace/src/ext-spellcheck.js')
+  script(src='/js/ais-editor.js')

@@ -1,0 +1,130 @@
+.token {
+  height: 18px;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin: 2px;
+  background: #ECECEC;
+  cursor: default;
+}
+
+
+/* Simple tokens */
+
+.token-CYRIL,
+.token-WORD,
+.morph-ADJF {
+  background: #FFBFBF;
+}
+
+.token-LATIN,
+.token-MIXED,
+.morph-ADJS {
+  background: #FF8686;
+}
+
+.token-PUNCT,
+.morph-VERB {
+  background: #B1BEFF;
+}
+
+.token-NUMBER,
+.morph-NOUN {
+  background: #A1EF82;
+  ;
+}
+
+.token-SPACE {
+  background: #ECECEC;
+}
+
+.token-OTHER {
+  background: #9E9E9E;
+  color: #FFF;
+}
+
+.token-LINK,
+.morph-INFN {
+  background: #1E1AFF;
+  color: #FFF;
+}
+
+.token-EMAIL,
+.morph-PRTF {
+  background: #13B5DA;
+  color: #FFF;
+}
+
+.morph-PRTS {
+  background: #0784a0;
+  color: #FFF;
+}
+
+.token-HASHTAG,
+.morph-GRND {
+  background: #9C2FFF;
+  color: #FFF;
+}
+
+.token-MARKUP,
+.morph-NUMR {
+  background: #2D9812;
+  color: #FFF;
+}
+
+.token-TAG,
+.morph-PREP {
+  background: #F79F00;
+  color: #FFF;
+}
+
+.token-CONTENT,
+.morph-CONJ {
+  background: #BFBF00;
+  color: #FFF;
+}
+
+.morph-COMP {
+  background: #ce5974;
+  color: #FFF;
+}
+
+.morph-ADVB {
+  background: #64edd4;
+}
+
+.morph-NPRO {
+  background: #97de49;
+}
+
+.morph-PRED {
+  background: #a93f92;
+  color: #FFF;
+}
+
+.morph-PRCL {
+  background: #fbeb2b;
+}
+
+.morph-INTJ {
+  background: #ff7818;
+  color: #FFF;
+}
+
+.morph-LATN {
+  background: #333;
+  color: #FFF;
+}
+
+.parse> div {
+  background: #fafafa;
+  color: #666;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  border-bottom: none;
+}

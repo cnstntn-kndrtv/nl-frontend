@@ -1,0 +1,151 @@
+/*МОРФОЛОГИЯ*/
+.ace_MORPH {
+    color: black !important;
+}
+
+.ace_morph_NOUN {
+    background: #A1EF82;
+}
+
+.ace_morph_NPRO {
+    background: #97de49;
+}
+
+.ace_morph_NUMR {
+    background: #2D9812;
+    color: #FFF !important;
+}
+
+.ace_morph_ADJF {
+    background: #FFBFBF;
+}
+
+.ace_morph_ADJS {
+    background: #FF8686;
+}
+
+.ace_morph_COMP {
+    background: #ce5974;
+    color: #FFF !important;
+}
+
+.ace_morph_VERB {
+    background: #B1BEFF;
+}
+
+.ace_morph_INFN {
+    background: #1E1AFF;
+    color: #FFF !important;
+}
+
+.ace_morph_PRTF {
+    background: #13B5DA;
+    color: #FFF !important;
+}
+
+.ace_morph_PRTS {
+    background: #0784a0;
+    color: #FFF !important;
+}
+
+.ace_morph_GRND {
+    background: #9C2FFF;
+    color: #FFF !important;
+}
+
+.ace_morph_ADVB {
+    background: #64edd4;
+}
+
+.ace_morph_PRED {
+    background: #a93f92;
+    color: #FFF !important;
+}
+
+.ace_morph_PREP {
+    background: #F79F00;
+    color: #FFF !important;
+}
+
+.ace_morph_CONJ {
+    background: #BFBF00;
+    color: #FFF !important;
+}
+
+.ace_morph_PRCL {
+    background: #fbeb2b;
+}
+
+.ace_morph_INTJ {
+    background: #ff7818;
+    color: #FFF !important;
+}
+
+.ace_morph_LATN {
+    background: #333;
+    color: #FFF !important;
+}
+
+
+/*ТОКЕНИЗАЦИЯ*/
+.ace_TOKENS {
+    color: black !important;
+}
+
+.ace_token_CYRIL,
+.ace_token_WORD {
+    background: #FFBFBF;
+}
+
+.ace_token_LATIN,
+.ace_token_MIXED {
+    background: #FF8686;
+}
+
+
+.ace_token_PUNCT {
+    background: #B1BEFF;
+}
+
+.ace_token_NUMBER {
+    background: #A1EF82;
+}
+
+.ace_token_SPACE {
+    background: #ECECEC;
+}
+
+.ace_token_OTHER {
+    background: #9E9E9E;
+    color: #FFF !important;
+}
+
+.ace_token_LINK {
+    background: #1E1AFF;
+    color: #FFF !important;
+}
+
+.ace_token_EMAIL {
+    background: #13B5DA;
+    color: #FFF !important;
+}
+
+.ace_token_HASHTAG {
+    background: #9C2FFF;
+    color: #FFF !important;
+}
+
+.ace_token_MARKUP {
+    background: #2D9812;
+    color: #FFF !important;
+}
+
+.ace_token_TAG {
+    background: #F79F00;
+    color: #FFF !important;
+}
+
+.ace_token_CONTENT {
+    background: #BFBF00;
+    color: #FFF !important;
+}

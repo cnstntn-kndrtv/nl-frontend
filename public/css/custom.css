@@ -1,0 +1,8 @@
+.panel-footer span {
+    margin-left: 10px;
+}
+
+.btn {
+    word-wrap: break-word !important;
+    white-space: pre-wrap !important;
+}
